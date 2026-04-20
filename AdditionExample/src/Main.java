@@ -1,8 +1,20 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-    System.out.printf("Hello and welcome!");
-    for (int i = 1; i <= 5; i++) {
-    System.out.println("i = " + i);
-        }
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b = sc.nextInt();
+
+        int sum = a + b;
+
+        System.out.println("Sum is: " + sum);
+
+        sc.close();
     }
 }
