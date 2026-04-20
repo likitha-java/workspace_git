@@ -5,5 +5,6 @@ public int m1( int c, int d)
 {
 int a= c+d;
 system.out.println(a);
+system.out.println(b);
 return c;
 }
