@@ -1,0 +1,9 @@
+public class Add
+
+
+public int m1( int c, int d)
+{
+int a= c+d;
+system.out.println(a);
+return c;
+}
